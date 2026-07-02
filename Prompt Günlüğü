@@ -1,0 +1,28 @@
+Prompt Günlüğü 
+Açıklama : Bu projenin geliştirilmesinde, ders kapsamında önerilen "Vibe Coding" (Yapay Zeka ile Ortak Geliştirme) yaklaşımı benimsenmiştir. Projenin teknik adımları planlanırken, daha önce katılmış olduğum "NVIDIA & Üretken Akademi - İş'te Yapay Zeka" eğitim programının müfredatı ve metodolojisi temel referans olarak alınmıştır. 
+
+- Gördüğüm ,ai destekli eğitimim esnasında ve sonrsında proje ödevimize uygun düzeltme için izlediğim prompt akışı (önemli olanlar):
+**Adım 1: Veri Kümesi Seçimi ve Keşif**
+•	**Prompt 1:** "Veri bilimi dönem projem için 'Sağlık ve Halk Sağlığı' temasını seçtim. Scikit-learn kütüphanesinde hazır bulunan Breast Cancer veri setini Python ile yükleyen, temel boyut (shape) ve sınıf dağılımı (bincount) bilgilerini ekrana basan bir başlangıç kodu yazar mısın?"
+**Adım 2: Veri Çerçevesi (DataFrame) ve İnceleme**
+•	**Prompt 2:** "Yüklediğim Breast Cancer verisini bir Pandas DataFrame yapısına dönüştürmek ve hedef (target) sütununu eklemek istiyorum. Verinin ilk 5 satırını ve sütun tiplerini nasıl görebilirim?"
+**Adım 3: Veri Kalite Kontrolü ve Temizleme**
+•	**Prompt 3:** "Projede veri temizleme adımlarını göstermem gerekiyor. Breast Cancer veri setinde eksik (null/NaN) değer olup olmadığını kontrol eden ve her özelliğin ortalama, min, max gibi temel istatistiklerini (describe) gösteren kodu hazırlar mısın?"
+**Adım 4: Veri Sınıf Dengesizliği Analizi**
+•	**Prompt 4:** "Hedef sütundaki iyi huylu ve kötü huylu tümörlerin sayısal ve yüzdelik dağılımını nasıl hesaplayabilirim? Bu dağılımdaki dengesizliğin model başarısına olası etkisini yorumlar mısın?"
+**Adım 5: Keşifsel Veri Analizi ve Görselleştirme (Bölüm 1)**
+•	**Prompt 5:** "Veri setindeki tümör sınıflarının dağılımını gösteren bir countplot ve seçtiğim 4 temel geometrik özelliğin ('mean radius', 'mean texture', 'mean perimeter', 'mean area') hedef sınıflara göre dağılımını kıyaslayan kutu grafiklerini (boxplot) çizdirebilir miyiz?"
+**Adım 6: İlişki ve Dağılım Analizleri (Bölüm 2)**
+•	**Prompt 6:** "Hocam en az 4 farklı grafik türü istiyor. Bana verideki ilk 10 özellik arasındaki doğrusal ilişkileri gösteren bir korelasyon ısı haritası (heatmap), tümör yarıçapı sıklığı için bir histogram ve alan-pürüzsüzlük ilişkisi için bir saçılım grafiği (scatter plot) kodu yazar mısın?"
+**Adım 7: Grafiklerin Optimizasyonu**
+•	**Prompt 7:** "Yazdığın histogram, scatter plot ve heatmap kodları Colab'de alt alta çalıştırılınca grafikler birbirinin üzerine biniyor ya da yarım çıkıyor. Bu grafikleri 2x2'lik tek bir figür çerçevesinde (subplot kullanarak) düzenli bir şekilde nasıl birleştirebilirim?"
+**Adım 8: Veri Kümesini Bölme (Train-Test Split)**
+•	**Prompt 8:** "Modelleme aşamasına geçmeden önce veriyi eğitim ve test setlerine ayırmak istiyorum. Test setinin oranını %30 olarak ayarlayarak `train_test_split` fonksiyonunu kullanan ve setlerin boyutlarını ekrana basan kodu yazar mısın?"
+**Adım 9: Çoklu Model Eğitimi**
+•	**Prompt 9:** "Eğitim verilerimi kullanarak Lojistik Regresyon, Karar Ağacı (Decision Tree) ve Random Forest modellerini eğiten; test seti üzerinde tahminler yapıp her birinin genel Accuracy (Doğruluk) skorunu basan tek bir bütünsel kod yazar mısın?"
+**Adım 10: Performans Metrikleri ve Karışıklık Matrisi**
+•	**Prompt 10:** "Modellerin sadece Accuracy skorları yeterli değil. Her model için `confusion_matrix` ve detaylı `classification_report` (Precision, Recall, F1-Score) çıktılarını üreten kodu ekler misin?"
+**Adım 11: Kritik Metrik Yorumlaması ve Savunma**
+•	**Prompt 11:** "Meme kanseri teşhisi yaptığımız göz önüne alındığında, Accuracy yerine neden Recall (Duyarlılık) metriğini önceliklendirmeliyiz? Bana mülakatta hocaya savunma yaparken kullanabileceğim, veri bilimci bakış açısıyla tıbbi gerekçeler sunar mısın?"
+**Adım 12: Sonuçların Tablaştırılması ve Görsel Karşılaştırma**
+•	**Prompt 12:** "Geliştirdiğimiz 3 modelin Accuracy, Recall, Precision ve F1-Score değerlerini toplu bir bar grafiğinde görselleştirmek ve tüm bu metrik sonuçlarını `comparison_df` adında tek bir özet Pandas DataFrame tablosunda birleştirmek istiyorum. Kapanış hücresi için bu kodu yazar mısın?"
