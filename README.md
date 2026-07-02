@@ -3,7 +3,7 @@
 
 Bu proje, dönem boyunca öğrenilen veri bilimi iş akışını (veri yükleme, temizleme, keşifsel veri analizi, görselleştirme ve temel makine öğrenmesi modellemesi) gerçek bir klinik veri seti üzerinde uygulamak amacıyla geliştirilmiştir. Proje geliştirme sürecinde "Vibe Coding" yaklaşımı benimsenerek, yapay zeka kodlama asistanları birincil geliştirme ortağı olarak kullanılmıştır.
 
-##öğrenci bilgileri 
+## Genel Bilgiler
 * **Öğrenci Numarası:** [1306230115]
 * **Adı Soyadı:** [Walaa Alsabuni ]
 * **Ders:** Veri Bilimi / Dönem Projesi (Final Ödevi)
@@ -24,5 +24,26 @@ Projenin çalıştırılması ve analizlerin yapılması için aşağıdaki Pyth
 * `seaborn` (Gelişmiş istatistiksel veri görselleştirme)
 * `scikit-learn` (Veri kümesi yükleme, model eğitimi ve başarı metrikleri)
 
-## 🚀 Projeyi Çalıştırma Talimatları
-Proje hem **Google Colab** üzerinde hem de yerel bilgisayarınızda **Jupyter Notebook** ortamında hatasız çalışacak şekilde optimize edilmiştir.
+### PROJE ÇALIŞMA TALİMATLARI 
+### colab notebook açmak 
+### veri seti ve kütüphaneler yüklemesi 
+### veri setini dataframe'e dönüştürmek 
+### temel istasitik ve eksik değer kontrolü 
+### sınıf dağılımı(yüzdelik)
+### Visiualisation 
+    * 1. kutu grafiği(boxplot)
+    * 2. heat map ile korelasyon 
+    * 3. histogram (dağılım grafiği)
+    * 4. scatter plot (saçılım grafiği)
+### testler ve dağılımlar 
+### EĞİTİM MODELLERİ 
+    * LOJİSTİK REGRESYON
+    * KARAR AĞACI
+    * RANDOM FOREST
+### karışıklık matrisi (confusion)
+### modeller arası metrik değerler karşılaştırması 
+    * accuracy değerleri karşılaştırması 
+    * recall değerleri karşılaştırılması
+    * güvenirlik değerleri karşılaştırılması(precision)
+    * F1 score değerleri karşılaştırılması
+### SON 
