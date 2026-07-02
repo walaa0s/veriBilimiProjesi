@@ -25,25 +25,25 @@ Projenin çalıştırılması ve analizlerin yapılması için aşağıdaki Pyth
 * `scikit-learn` (Veri kümesi yükleme, model eğitimi ve başarı metrikleri)
 
 ### PROJE ÇALIŞMA TALİMATLARI 
-### colab notebook açmak 
-### veri seti ve kütüphaneler yüklemesi 
-### veri setini dataframe'e dönüştürmek 
-### temel istasitik ve eksik değer kontrolü 
-### sınıf dağılımı(yüzdelik)
-### Visiualisation 
-    * 1. kutu grafiği(boxplot)
-    * 2. heat map ile korelasyon 
-    * 3. histogram (dağılım grafiği)
-    * 4. scatter plot (saçılım grafiği)
-### testler ve dağılımlar 
-### EĞİTİM MODELLERİ 
-    * LOJİSTİK REGRESYON
-    * KARAR AĞACI
-    * RANDOM FOREST
-### karışıklık matrisi (confusion)
-### modeller arası metrik değerler karşılaştırması 
-    * accuracy değerleri karşılaştırması 
-    * recall değerleri karşılaştırılması
-    * güvenirlik değerleri karşılaştırılması(precision)
-    * F1 score değerleri karşılaştırılması
-### SON 
+* **colab notebook açmak**
+* **veri seti ve kütüphaneler yüklemesi** 
+* **veri setini dataframe'e dönüştürmek** 
+* **temel istasitik ve eksik değer kontrolü** 
+* **sınıf dağılımı(yüzdelik)**
+* **Visiualisation** 
+    1. kutu grafiği(boxplot)
+    2. heat map ile korelasyon 
+    3. histogram (dağılım grafiği)
+    4. scatter plot (saçılım grafiği)
+* **testler ve dağılımlar** 
+* **EĞİTİM MODELLERİ** 
+    - LOJİSTİK REGRESYON
+    - KARAR AĞACI
+    - RANDOM FOREST
+* **karışıklık matrisi (confusion)**
+* **modeller arası metrik değerler karşılaştırması** 
+    - accuracy değerleri karşılaştırması 
+    - recall değerleri karşılaştırılması
+    - güvenirlik değerleri karşılaştırılması(precision)
+    - F1 score değerleri karşılaştırılması
+* SON 
