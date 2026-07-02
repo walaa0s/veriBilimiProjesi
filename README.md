@@ -7,8 +7,9 @@ Bu proje, dönem boyunca öğrenilen veri bilimi iş akışını (veri yükleme,
 * **Öğrenci Numarası:** [1306230115]
 * **Adı Soyadı:** [Walaa Alsabuni ]
 * **Ders:** Veri Bilimi / Dönem Projesi (Final Ödevi)
+* **ipynb linki** https://colab.research.google.com/drive/198mQy6lR9qbOI6eJYyUzdhPmoyLPNVPB?usp=sharing
 
-## Veri Seti ve Kaynağı
+## Veri Seti ve Kaynağı 
 * **Veri Seti Adı:** Breast Cancer Wisconsin (Diagnostic) Dataset
 * **Veri Kaynağı:** `sklearn.datasets.load_breast_cancer` (Aslı: UCI Machine Learning Repository)
 * **Veri Boyutu:** 569 Gözlem (Satır), 30 Özellik (Sütun)
